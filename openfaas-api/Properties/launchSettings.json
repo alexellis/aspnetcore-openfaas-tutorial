@@ -4,24 +4,25 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:51565",
+      "applicationUrl": "http://localhost:46206",
       "sslPort": 0
     }
   },
   "profiles": {
-    "IIS Express": {
-      "commandName": "IISExpress",
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5026",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "openfaas_api": {
-      "commandName": "Project",
+    "IIS Express": {
+      "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
-      "applicationUrl": "http://localhost:5000",
+      "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
