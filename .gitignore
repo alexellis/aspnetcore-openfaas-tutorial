@@ -1,4 +1,5 @@
 template
 build
+.secrets
 [b|B]in
 [O|o]bj
